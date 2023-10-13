@@ -9,7 +9,7 @@ const UserSchema = mongose.Schema({
         type : "string",
         required : [true,"email is required"]
     },
-    password : {
+    password : { 
         type : "string",
         required : [true,"password is required"]
     },
